@@ -7,7 +7,7 @@
 - требует написания вручную команды git merge для слияния всех полученных новых изменений с текущей веткой,<br>
 в которой происходит работа.
 
-<img src="https://raw.github.com/xintrea/mytetra_syncro/master/base/14357584259soun9chuj/image1548152635tqvctg3eeo.png" width="200" height="100">
+![Git Fetch Schema](C:/Users/HP/Downloads/gitFetch.png)
 
 
 #### Git Pull:
@@ -17,5 +17,4 @@
 - может привести к конфликтам, если вы не следите за изменениями в ветках.
 - хорошо для применения, если есть ветка, настроенная на отслеживание удалённой ветки 
 
-<img src="https://raw.github.com/xintrea/mytetra_syncro/master/base/14357584259soun9chuj/image1548152747dpzmnyxma8.png" width="200" height="100">
-
+![Git Pull Schema](C:/Users/HP/Downloads/gitPull.png)
