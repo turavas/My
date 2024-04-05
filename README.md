@@ -19,26 +19,27 @@
 <img src="https://raw.github.com/xintrea/mytetra_syncro/master/base/14357584259soun9chuj/image1548152747dpzmnyxma8.png" width="200" height="100">
 
 
+
 ### Внесение изменений в предыдущий коммит
 
 ##### Ситуация: вносим измнения в коммит на локальном репозитории (коммит НЕ_ЗАПУШЕН).  
 
-==git commit --amend==  позволяет внести измения в предыдущий. 
+<mark>git commit --amend</mark>  позволяет внести измения в предыдущий. 
 
-После ввода команды ==git commit --amend== откроется редактор ==vim== с нашим файлом, в который мы хотим внести изменения. 
+После ввода команды <mark>git commit --amend<mark> откроется редактор <mark>vim</mark> с нашим файлом, в который мы хотим внести изменения. 
 
-**git commit --amend --no-edit** флаг ==--no-edit== позволит внести изменения в коммит без изменения комментария к нему.  
+**git commit --amend --no-edit** флаг <mark>--no-edit</mark> позволит внести изменения в коммит без изменения комментария к нему.  
 
-==git commit --amend -m [new message]== вносим изменения в название коммита.  
+<mark>git commit --amend -m [new message]</mark> вносим изменения в название коммита.  
 
-Добавление аргумента ==-m== позволит передавать новый комментарий прямо из командной строки, без открытия текстового редактора.
+Добавление аргумента <mark>-m</mark> позволит передавать новый комментарий прямо из командной строки, без открытия текстового редактора.
 
 В реальности --amend не добавляет изменения в существующий коммит. Этот флаг приводит к откату коммита через git reset и выполнению нового коммита с новыми данными.  
 
 > **--amend**
 > Replace the tip of the current branch by creating a new commit. The recorded tree is prepared as usual (including the effect of the -i and -o options and explicit pathspec), and the message from the original commit is used as the starting point, instead of an empty message, when no other message is specified from the command line via options such as -m, -F, -c, etc. The new commit has the same parents and author as the current one  
+Источник [Git](https://git-scm.com/docs/git-commit#Documentation/git-commit.txt---amend)
 
-> Источник [Git](https://git-scm.com/docs/git-commit#Documentation/git-commit.txt---amend)
 
 ##### Ситуация: вносим измнения в коммит на удаленном репозитории (коммит ЗАПУШЕН).
 
